@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?wa4679');
+    src:  url('../fonts/icomoon.eot?wa4679#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?wa4679') format('truetype'),
+      url('../fonts/icomoon.woff?wa4679') format('woff'),
+      url('../fonts/icomoon.svg?wa4679#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+    
+}
+.bar{
+    position: fixed;
+    width: 16rem;
+    height: 4rem;
+    
+    
+   
+}
+.bar ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 4rem;
+    width: 8rem;
+    height: 4rem;
+    background-color: rgb(250,250,250);
+    color: rgb(50, 216, 163);
+}
+.dian{
+    width: 16rem;
+    height: 4rem;
+}
+#search{
+    margin-top: 1rem;
+    width: 12rem;
+    height: 2rem;
+    margin: 0 2rem 0 2rem;
+    
+}
+#search input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 75%;
+    padding-left: 5rem;
+    border-radius: 10%;
+    background-color: #fff;
+}
+
+.gedan{
+    height: 3rem;
+    padding: 1rem;
+    
+    font-size:small;
+    font-weight: bolder;
+}
+.view{
+    height: 7rem;
+    width: 16rem;
+    /* background-color: bisque; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.view>div{
+    
+    
+    display:inline-block;
+    height: 7rem;
+    width: 5rem;
+    margin-left: 0.5rem;
+    /* background-color: antiquewhite; */
+}
+.pic{
+    overflow: hidden;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    /* background-color: aquamarine; */
+}
+.pic img{
+    height: 5rem;
+    width: 5rem;
+}
+.text{
+    color: rgb(167, 167, 167);
+    font-size:xx-small;
+    text-align: center;
+    line-height: 2rem;
+}
+.view3{
+    height: 8rem;
+    width: 16rem;
+    /* background-color: bisque; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.view3>div{
+    display:inline-block;
+    height: 6rem;
+    width: 10rem;
+    margin-left: 0.5rem;
+    /* background-color: antiquewhite; */
+}
+.bac{
+    overflow: hidden;
+    height: 6rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    /* background-color: aquamarine; */
+}
+.bac img{
+    height: 6rem;
+    width: 10rem;
+}
+.des{
+    color: rgb(167, 167, 167);
+    width: 10rem;
+    height: 2rem;
+    overflow: hidden;
+    font-size:0.01rem;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 2rem;
+}
+#hot{
+    display: none;
+
+}
+#turn{
+    display: none;
+}
+#turn li{
+    list-style: none;
+    height: 2rem;
+    width: 14rem;
+    margin: 0 1rem 0.5rem 1rem;
+    line-height: 2rem;
+    font-size: x-small;
+    font-weight: bold;
+}
+#songList{
+    display:block;
+}
+#hot div{
+    height: 3rem;
+    width: 4rem;
+    margin-left: 0.5rem;
+    font-size: smaller;
+    font-weight: bolder;
+    line-height: 3rem;
+}
+#hot li{
+    list-style: none;
+    height: 1rem;
+    width: 14rem;
+    border-radius: 0.5rem;
+    margin: 0 1rem 0.5rem 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: xx-small;
+    font-weight: lighter;
+    background-color: #fff;
+}
+.bottom{
+    width: 16rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    
+}
+.bottom img{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: bgc(245,245,245);
+}
+.bottom span{
+    height: 2rem;
+    margin-left: 0.5rem;
+    font-size:large;
+    font-weight:300;
+   
+    line-height: 2rem;
+}
